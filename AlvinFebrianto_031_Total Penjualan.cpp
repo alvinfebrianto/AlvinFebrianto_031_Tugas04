@@ -15,13 +15,13 @@ int main() {
 		harga = harga+hrg;
 	}
 		if (harga > 500) {
-			diskon = harga - (harga*10/100);			
+		    diskon = harga - (harga*10/100);			
 		}
 		else if (harga >= 200 && harga <= 500) {
-			diskon = harga - (harga*5/100);
+			 diskon = harga - (harga*5/100);
 		}
 		else {
-			diskon = harga;
+		      diskon = harga;
 		}
 		
 	cout << "\n Total Harga Asli = Rp." << harga;
